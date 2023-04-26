@@ -165,5 +165,21 @@ body{
 }
 
 #leave-btn{
-    background-color: white;
+    background-color: red;
 }
+
+@media (max-width: 576px) {
+    .conteudo {
+      font-size: 14px;
+      padding: 10px;
+      
+}}
+
+@media (max-width: 576px) {
+    .conteudo-principal-imagem {
+    display: flex;
+    width: 70%;
+    height: 330px;
+    margin-top: 10px;
+    margin-left:10%;
+}}
